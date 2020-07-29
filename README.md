@@ -1,7 +1,7 @@
 # OUR VEDIK
 
 <div class=" p-3 border" align="center">
-<img class="p-5" src="https://user-images.githubusercontent.com/67639272/88789265-de337500-d129-11ea-995d-ad6178a5c916.jpg" width="300" height="500"> </img>
+<img src="https://user-images.githubusercontent.com/67639272/88789265-de337500-d129-11ea-995d-ad6178a5c916.jpg" width="300" height="500"> </img>
 </div>
 
 <div class=" p-3 border d-flex" align= "center">
