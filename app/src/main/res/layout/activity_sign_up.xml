@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150sp"
+        android:background="@drawable/vedik"/>
+    <TextView
+        android:id="@+id/ourvedik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/our_vedik"
+        android:textColor="#b71c1c"
+        android:layout_marginTop="50sp"
+        android:padding="20sp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="192dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ourvedik"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"
+        android:background="@drawable/edit_text_border"
+        android:elevation="10dp"
+        android:paddingHorizontal="@android:dimen/app_icon_size"
+        android:text="@string/sign_up"
+        android:textColor="#f44336"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:layout_width="208dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/signup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_border"
+        android:paddingHorizontal="@android:dimen/app_icon_size"
+        android:text="@string/login"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#ffffff" />
+
+
+
+
+
+
+
+</RelativeLayout>

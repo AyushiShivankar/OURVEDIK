@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vedik"
+    android:orientation="vertical"
+    tools:context=".Home">
+    <TextView
+        android:id="@+id/hme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hhome"
+        android:textSize="40sp"
+        android:textColor="#d50000"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/back"
+        android:layout_toRightOf="@id/back"
+        android:layout_toStartOf="@id/menu"
+        android:layout_marginTop="10dp"
+        android:layout_toLeftOf="@id/menu"
+        android:gravity="center"/>
+    <View
+        android:id="@+id/vieww"
+        android:layout_width="410dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/hme"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="#e65100"
+        android:paddingStart="30dp"></View>
+
+    <TextView
+        android:id="@+id/our"
+        android:layout_width="125dp"
+        android:layout_height="108dp"
+        android:text="@string/our_vedik"
+        android:textColor="#dd2c00"
+        android:textSize="30sp"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/hme"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/aboutus"
+        android:layout_width="196dp"
+        android:layout_height="28dp"
+        android:layout_below="@+id/our"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_border"
+        android:text="@string/about_uss"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/contactnow"
+        android:layout_width="186dp"
+        android:layout_height="37dp"
+        android:layout_below="@id/aboutus"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_text_border"
+        android:padding="2dp"
+        android:text="@string/contact_now"
+        android:textColor="#e65100"
+        android:textSize="20sp" />
+    <View
+        android:id="@+id/view"
+        android:layout_width="410dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/contactnow"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:background="#e65100"
+        android:paddingStart="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"></View>
+
+    <Button
+        android:id="@+id/guide"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/guide"
+        android:text="@string/guide"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/cabservice"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guide"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/cabservice"
+        android:text="@string/cab_service"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/Astrology"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cabservice"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/astrology"
+        android:text="@string/astrology"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/trustie"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Astrology"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/trustie"
+        android:text="@string/trustie"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/pandit"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/trustie"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/hire"
+        android:text="@string/hire_a_pandit"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="163dp"
+        android:layout_height="187dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/havan"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/todo" />
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/todoo"
+        android:src="@drawable/back" />
+
+    <ImageView
+        android:id="@+id/menu"
+        android:layout_width="69dp"
+        android:layout_height="40dp"
+        android:src="@drawable/menu"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/todo"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+
+
+
+
+</RelativeLayout>

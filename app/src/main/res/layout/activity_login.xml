@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="150sp"
+        android:background="@drawable/vedik"/>
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loginn"
+        android:textSize="40sp"
+        android:textColor="#b71c1c"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/nme"
+        android:layout_width="287dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/passw"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nme"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/remem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember"
+        android:layout_margin="30dp"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:layout_below="@id/passw"/>
+
+
+    <TextView
+        android:id="@+id/fpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passw"
+        android:layout_toEndOf="@id/remem"
+        android:layout_toRightOf="@id/remem"
+        android:layout_margin="30dp"
+        android:text="@string/forget_password"
+        android:textColor="#d50000"
+        android:textSize="20sp"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passw"
+        android:checked="true"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="35dp"/>
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_border"
+        android:paddingHorizontal="@android:dimen/app_icon_size"
+        android:text="@string/login"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dont"
+        android:layout_width="236dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/log"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="20sp"
+        android:text="@string/dont_have_an_account"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <EditText
+        android:layout_width="79dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/dont"
+        android:layout_marginStart="-44dp"
+        android:layout_marginLeft="-44dp"
+        android:layout_marginTop="-83dp"
+        android:layout_toEndOf="@+id/dont"
+        android:layout_toRightOf="@+id/dont"
+        android:text="@string/signupp"
+        android:textColor="#d50000"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back"
+        android:paddingVertical="70dp"
+        android:paddingHorizontal="30dp"/>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
